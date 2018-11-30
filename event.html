@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta lang="en">
+    <title>event</title>
+    <link rel="stylesheet" type="text/css" href="event.css">
+</head>
+
+<body>
+    <div>
+
+        <button id="btn1">button</button>
+
+    </div>
+
+    <script>
+        function demo1() {
+            alert("hello1");
+        }
+
+        function demo2() {
+            alert("hello2");
+        }
+        var btn1 = document.getElementById("btn1")
+            // btn1.onclick = demo1;
+            // btn1.onclick = demo2;
+        btn1.addEventListener("click", demo1);
+        btn1.addEventListener("click", demo2);
+        btn1.removeEventListener("click", demo2);
+    </script>
+
+</body>
+
+</html>

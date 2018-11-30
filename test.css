@@ -1,0 +1,21 @@
+.left {
+    padding-top: 20px;
+    height: 100%;
+    width: 220px;
+    float: left;
+    color: #227744
+}
+
+.right {
+    padding-right: 20px;
+    height: 100%;
+    margin-left: 220px;
+    overflow-y: auto;
+}
+
+.productdetail {
+    height: 250px;
+    width: 100%;
+    border: 1px solid lightgray;
+    overflow-y: auto;
+}
