@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 150px;
+    padding: 10px;
+    background-color: red;
+    background-image: url("");
+    background-position: left;
+    background-repeat: no-repeat;
+    outline-style: dotted;
+    outline-color: seagreen;
+    outline-width: 2px;
+}

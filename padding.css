@@ -1,0 +1,20 @@
+td {
+    padding: 100px;
+}
+
+p {
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rosybrown;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+#i {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #ffccff;
+}

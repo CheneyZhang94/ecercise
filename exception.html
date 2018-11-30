@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>exception</title>
+
+</head>
+
+<body>
+    <form>
+        <input id="txt" type="text">
+        <input id="btn" type="button" onclick="demo()" value="">
+    </form>
+    <script>
+        function demo() {
+            try {
+
+                var e = document.getElementById("txt").value;
+                if (e == "") {
+                    throw "enter someting";
+                }
+
+            } catch (err) {
+                alert(err);
+            }
+
+        }
+    </script>
+</body>
+
+</html>
